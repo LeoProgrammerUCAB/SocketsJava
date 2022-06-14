@@ -32,7 +32,7 @@ public class fumador {
                     break;
             }
             this.buscadasConsecutivas++;
-            System.out.println("Fumador: Ingreidente Recibido " + str2);
+            System.out.println("Fumador: Ingrediente Recibido " + str2);
         } catch (Exception e) {
             System.out.println("Fumador: Error al buscar ingredientes...");
         }
@@ -53,18 +53,21 @@ public class fumador {
         }
     }
 
-    public void solicitarIngredientes(DataInputStream din, DataOutputStream dout) {
+    public void solicitarIngredientes() {
         try {
             if (this.buscadasConsecutivas >= 2) {
                 System.out.println("Fumador: Solicitando ingredientes al vendedor...");
+                Socket s = new Socket("localhost", 4444);
+                DataInputStream din = new DataInputStream(s.getInputStream());
+                DataOutputStream dout = new DataOutputStream(s.getOutputStream());
                 // SI: Solicitando ingredientes (Debe solicitar esto al vendedor)
                 String str = "SI", str2 = "";
                 dout.writeUTF(str);
                 dout.flush();
-                // No se si el vendedor podría retornar algo
-                // str2 = din.readUTF();
-                // switch (str2) {
-                // }
+                // Cerrando
+                dout.close();
+                s.close();
+                this.buscadasConsecutivas = 0;
             }
         } catch (Exception e) {
             System.out.println("Fumador: Error al buscar ingredientes...");
@@ -72,10 +75,6 @@ public class fumador {
     }
 
     public static void main(String args[]) throws Exception {
-        // Socket s = new Socket("localhost", 3333);
-        // DataInputStream din = new DataInputStream(s.getInputStream());
-        // DataOutputStream dout = new DataOutputStream(s.getOutputStream());
-
         int parada = 0;
         fumador f = new fumador();
         while (parada != 1) {
@@ -84,6 +83,7 @@ public class fumador {
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
             f.buscarIngredientes(din, dout);
             parada = f.fumar();
+            f.solicitarIngredientes();
             dout.close();
             s.close();
         }
