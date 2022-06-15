@@ -34,7 +34,7 @@ public class fumador {
             this.buscadasConsecutivas++;
             System.out.println("Fumador: Ingrediente Recibido " + str2);
         } catch (Exception e) {
-            System.out.println("Fumador: Error al buscar ingredientes...");
+            System.out.println("Fumador: Error al buscar ingredientes...: " + e.toString());
         }
     }
 
