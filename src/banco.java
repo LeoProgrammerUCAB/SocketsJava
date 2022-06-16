@@ -4,28 +4,44 @@ import java.io.*;
 //El banco hace funciones de servidor
 public class Banco {
 
-    private int tabaco = 0;
-    private int papel = 0;
-    private int fosforos = 0;
+    private int tabaco = 10;
+    private int papel = 10;
+    private int fosforos = 10;
 
     private String seleccionarIngrediente() {
         String ingrediente = "";
-        int random = (int) (Math.random() * 3);
-        switch (random) {
-            case 0:
-                ingrediente = "tabaco";
-                this.tabaco--;
-                break;
-            case 1:
-                ingrediente = "papel";
-                this.papel--;
-                break;
-            case 2:
-                ingrediente = "fosforos";
-                this.fosforos--;
-                break;
+        if (this.tabaco > 0 || this.papel > 0 || this.fosforos > 0) {
+            while (ingrediente == "") {
+                int random = (int) (Math.random() * 3);
+                switch (random) {
+                    case 0:
+                        if (tabaco > 0) {
+                            ingrediente = "tabaco";
+                            this.tabaco--;
+                            System.out.println("Banco: " + this.tabaco + " tabaco");
+                        }
+                        break;
+                    case 1:
+                        if (papel > 0) {
+                            ingrediente = "papel";
+                            this.papel--;
+                            System.out.println("Banco: " + this.papel + " papel");
+                        }
+                        break;
+                    case 2:
+                        if (fosforos > 0) {
+                            ingrediente = "fosforos";
+                            this.fosforos--;
+                            System.out.println("Banco: " + this.fosforos + " fosforos");
+                        }
+                        break;
+                }
+            }
+            return ingrediente;
+        } else {
+            return "vacio";
         }
-        return ingrediente;
+
     }
 
     public synchronized void procesarPeticiones(DataInputStream din, DataOutputStream dout) {

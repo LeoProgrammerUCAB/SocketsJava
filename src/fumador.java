@@ -30,6 +30,9 @@ public class fumador {
                 case "fosforos":
                     this.fosforos++;
                     break;
+                case "vacio":
+                    System.out.println("Fumador: El banco no retornó ingredientes...");
+                    break;
             }
             this.buscadasConsecutivas++;
             System.out.println("Fumador: Ingrediente Recibido " + str2);
