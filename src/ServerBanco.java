@@ -6,7 +6,7 @@ import java.net.Socket;
 
 public class ServerBanco implements Runnable {
 
-    private static Banco banco1 = new Banco();
+    private static Banco banco1 = new Banco(1);
     // private static Banco banco2 = new Banco();
     // private static Banco banco3 = new Banco();
 
@@ -46,7 +46,6 @@ public class ServerBanco implements Runnable {
             din.close();
             socket.close();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

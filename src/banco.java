@@ -1,12 +1,23 @@
 import java.net.*;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.io.*;
 
 //El banco hace funciones de servidor
 public class Banco {
 
-    private int tabaco = 10;
-    private int papel = 10;
-    private int fosforos = 10;
+    private int noTiene; // 1, 2 o 3
+    private int tabaco = 0;
+    private int papel = 0;
+    private int fosforos = 0;
+
+    public Banco(int noTiene) {
+        if (noTiene == 1 || noTiene == 2 || noTiene == 3) {
+            this.noTiene = noTiene;
+        } else {
+            this.noTiene = 1;
+        }
+    }
 
     private String seleccionarIngrediente() {
         String ingrediente = "";
@@ -15,21 +26,21 @@ public class Banco {
                 int random = (int) (Math.random() * 3);
                 switch (random) {
                     case 0:
-                        if (tabaco > 0) {
+                        if (tabaco > 0 && noTiene != 1) {
                             ingrediente = "tabaco";
                             this.tabaco--;
                             System.out.println("Banco: " + this.tabaco + " tabaco");
                         }
                         break;
                     case 1:
-                        if (papel > 0) {
+                        if (papel > 0 && noTiene != 2) {
                             ingrediente = "papel";
                             this.papel--;
                             System.out.println("Banco: " + this.papel + " papel");
                         }
                         break;
                     case 2:
-                        if (fosforos > 0) {
+                        if (fosforos > 0 && noTiene != 3) {
                             ingrediente = "fosforos";
                             this.fosforos--;
                             System.out.println("Banco: " + this.fosforos + " fosforos");
@@ -45,6 +56,8 @@ public class Banco {
     }
 
     public synchronized void procesarPeticiones(DataInputStream din, DataOutputStream dout) {
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        LocalDateTime now = LocalDateTime.now();
         try {
             // Delay 2 seconds
             Thread.sleep(2000);
@@ -52,20 +65,21 @@ public class Banco {
             str = din.readUTF();
             switch (str) {
                 case "BI": // Fumador Buscando ingredientes
-                    dout.writeUTF(this.seleccionarIngrediente());
+                    dout.writeUTF(this.seleccionarIngrediente() + ":" + dtf.format(now));
                     break;
                 case "ST": // Vendedor Sumando Tabaco
                     this.tabaco++;
-                    // Print sumando tabaco
+                    dout.writeUTF("ST:" + dtf.format(now));
                     System.out.println("Banco: Sumando tabaco...");
                     break;
-                // Vendedor Sumando Papel
-                case "SP":
+                case "SP":// Vendedor Sumando Papel
                     this.papel++;
+                    dout.writeUTF("SP:" + dtf.format(now));
                     System.out.println("Banco: Sumando papel...");
                     break;
                 case "SF": // Vendedor Sumando Fosforos
                     this.fosforos++;
+                    dout.writeUTF("SF:" + dtf.format(now));
                     System.out.println("Banco: Sumando fosforos...");
                     break;
             }

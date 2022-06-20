@@ -8,6 +8,15 @@ public class fumador {
     private int papel = 0;
     private int fosforos = 0;
     private int buscadasConsecutivas = 0;
+    private int infinito; // 1, 2 o 3
+
+    public fumador(int infinito) {
+        if (infinito == 1 || infinito == 2 || infinito == 3) {
+            this.infinito = infinito;
+        } else {
+            this.infinito = 1;
+        }
+    }
 
     // Por ahora todo empieza en 0, mas adelante hay que validar lo que dijo la
     // profe de un insumo infinito
@@ -16,11 +25,13 @@ public class fumador {
         try {
             System.out.println("Fumador: Buscando ingredientes...");
             // BI: Buscando ingredientes
-            String str = "BI", str2 = "";
+            String str = "BI", response = "";
             dout.writeUTF(str);
             dout.flush();
-            str2 = din.readUTF();
-            switch (str2) {
+            response = din.readUTF();
+            // Split response by :
+            String[] str2 = response.split(":");
+            switch (str2[0]) {
                 case "tabaco":
                     this.tabaco++;
                     break;
@@ -35,7 +46,7 @@ public class fumador {
                     break;
             }
             this.buscadasConsecutivas++;
-            System.out.println("Fumador: Ingrediente Recibido " + str2);
+            System.out.println("Fumador: Ingrediente Recibido " + response);
         } catch (Exception e) {
             System.out.println("Fumador: Error al buscar ingredientes...: " + e.toString());
         }
@@ -64,7 +75,7 @@ public class fumador {
                 DataInputStream din = new DataInputStream(s.getInputStream());
                 DataOutputStream dout = new DataOutputStream(s.getOutputStream());
                 // SI: Solicitando ingredientes (Debe solicitar esto al vendedor)
-                String str = "SI", str2 = "";
+                String str = "SI";
                 dout.writeUTF(str);
                 dout.flush();
                 // Cerrando
@@ -79,7 +90,7 @@ public class fumador {
 
     public static void main(String args[]) throws Exception {
         int parada = 0;
-        fumador f = new fumador();
+        fumador f = new fumador(1);
         while (parada != 1) {
             Socket s = new Socket("localhost", 3333);
             DataInputStream din = new DataInputStream(s.getInputStream());
