@@ -53,8 +53,9 @@ public class fumador {
     }
 
     public int fumar() {
-        // Print fumando
-        if (this.tabaco > 0 && this.papel > 0 && this.fosforos > 0) {
+
+        if ((this.tabaco > 0 || this.infinito == 1) && (this.papel > 0 || this.infinito == 2)
+                && (this.fosforos > 0 || this.infinito == 3)) {
             System.out.println("Fumador: Fumando...");
             this.buscadasConsecutivas = 0;
             this.fosforos--;
@@ -88,11 +89,22 @@ public class fumador {
         }
     }
 
+    public static Socket encontrarBanco(fumador f) throws Exception {
+        if (f.tabaco == 0 && f.infinito != 1) {
+            return new Socket("localhost", 3333);
+        } else if (f.papel == 0 && f.infinito != 2) {
+            return new Socket("localhost", 3334);
+        } else if (f.fosforos == 0 && f.infinito != 3) {
+            return new Socket("localhost", 3335);
+        } else
+            throw new Exception("Fumador: No necesita ingredientes...");
+    }
+
     public static void main(String args[]) throws Exception {
         int parada = 0;
         fumador f = new fumador(1);
         while (parada != 1) {
-            Socket s = new Socket("localhost", 3333);
+            Socket s = encontrarBanco(f);
             DataInputStream din = new DataInputStream(s.getInputStream());
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
             f.buscarIngredientes(din, dout);

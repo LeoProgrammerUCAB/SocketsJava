@@ -4,35 +4,51 @@ import java.io.*;
 //El vendedor hace funciones de cliente
 public class vendedor {
 
-    public String seleccionarIngrediente() {
-        String ingrediente = "";
-        int random = (int) (Math.random() * 3);
-        switch (random) {
-            case 0:
-                ingrediente = "ST"; // Sumar Tabaco
-                break;
+    private void seleccionar2Bancos() throws UnknownHostException, IOException, Exception {
+        int banco1 = 0;
+        int banco2 = 0;
+        // Seleccionar dos numeros diferentes del 1 al 3
+        while (banco1 == banco2) {
+            banco1 = (int) (Math.random() * 3) + 1;
+            banco2 = (int) (Math.random() * 3) + 1;
+        }
+        // Switch from 1 to 3
+        switch (banco1) {
             case 1:
-                ingrediente = "SP"; // Sumar Papel
+                this.depositarIngredientes(new Socket("localhost", 3333));
                 break;
             case 2:
-                ingrediente = "SF"; // Sumar Fosforos
+                this.depositarIngredientes(new Socket("localhost", 3334));
+                break;
+            case 3:
+                this.depositarIngredientes(new Socket("localhost", 3335));
                 break;
         }
-        return ingrediente;
+        switch (banco2) {
+            case 1:
+                this.depositarIngredientes(new Socket("localhost", 3333));
+                break;
+            case 2:
+                this.depositarIngredientes(new Socket("localhost", 3334));
+                break;
+            case 3:
+                this.depositarIngredientes(new Socket("localhost", 3335));
+                break;
+        }
     }
 
-    public void depositarIngredientes() throws Exception {
+    public void depositarIngredientes(Socket socket) throws Exception {
 
-        Socket s = new Socket("localhost", 3333);
-        DataInputStream din = new DataInputStream(s.getInputStream());
-        DataOutputStream dout = new DataOutputStream(s.getOutputStream());
-        String ingrediente = this.seleccionarIngrediente();
+        DataInputStream din = new DataInputStream(socket.getInputStream());
+        DataOutputStream dout = new DataOutputStream(socket.getOutputStream());
+
+        String ingrediente = "SI";
         // Print depositando
         System.out.println("Vendedor: Depositando ingrediente: " + ingrediente);
         dout.writeUTF(ingrediente);
         dout.flush();
         dout.close();
-        s.close();
+        socket.close();
     }
 
     public void procesarPeticiones(DataInputStream din, DataOutputStream dout) {
@@ -41,7 +57,7 @@ public class vendedor {
             str = din.readUTF();
             switch (str) {
                 case "SI": // Fumador Solicitando ingredientes
-                    this.depositarIngredientes();
+                    this.seleccionar2Bancos();
                     break;
             }
             dout.flush();

@@ -3,56 +3,31 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.io.*;
 
-//El banco hace funciones de servidor
+enum Ingredientes {
+    tabaco,
+    papel,
+    fosforos
+}
+
+// El banco hace funciones de servidor
 public class Banco {
 
-    private int noTiene; // 1, 2 o 3
-    private int tabaco = 0;
-    private int papel = 0;
-    private int fosforos = 0;
+    private Ingredientes tipo;
+    private int ingrediente = 2;
 
-    public Banco(int noTiene) {
-        if (noTiene == 1 || noTiene == 2 || noTiene == 3) {
-            this.noTiene = noTiene;
-        } else {
-            this.noTiene = 1;
-        }
+    public Banco(Ingredientes tipo) {
+        this.tipo = tipo;
     }
 
     private String seleccionarIngrediente() {
-        String ingrediente = "";
-        if (this.tabaco > 0 || this.papel > 0 || this.fosforos > 0) {
-            while (ingrediente == "") {
-                int random = (int) (Math.random() * 3);
-                switch (random) {
-                    case 0:
-                        if (tabaco > 0 && noTiene != 1) {
-                            ingrediente = "tabaco";
-                            this.tabaco--;
-                            System.out.println("Banco: " + this.tabaco + " tabaco");
-                        }
-                        break;
-                    case 1:
-                        if (papel > 0 && noTiene != 2) {
-                            ingrediente = "papel";
-                            this.papel--;
-                            System.out.println("Banco: " + this.papel + " papel");
-                        }
-                        break;
-                    case 2:
-                        if (fosforos > 0 && noTiene != 3) {
-                            ingrediente = "fosforos";
-                            this.fosforos--;
-                            System.out.println("Banco: " + this.fosforos + " fosforos");
-                        }
-                        break;
-                }
-            }
-            return ingrediente;
+        if (this.ingrediente > 0) {
+            this.ingrediente--;
+            // Print how much is left
+            System.out.println("Banco: " + this.tipo.toString() + ": " + this.ingrediente + " unidades restantes");
+            return this.tipo.toString();
         } else {
             return "vacio";
         }
-
     }
 
     public synchronized void procesarPeticiones(DataInputStream din, DataOutputStream dout) {
@@ -67,20 +42,10 @@ public class Banco {
                 case "BI": // Fumador Buscando ingredientes
                     dout.writeUTF(this.seleccionarIngrediente() + ":" + dtf.format(now));
                     break;
-                case "ST": // Vendedor Sumando Tabaco
-                    this.tabaco++;
-                    dout.writeUTF("ST:" + dtf.format(now));
-                    System.out.println("Banco: Sumando tabaco...");
-                    break;
-                case "SP":// Vendedor Sumando Papel
-                    this.papel++;
-                    dout.writeUTF("SP:" + dtf.format(now));
-                    System.out.println("Banco: Sumando papel...");
-                    break;
-                case "SF": // Vendedor Sumando Fosforos
-                    this.fosforos++;
-                    dout.writeUTF("SF:" + dtf.format(now));
-                    System.out.println("Banco: Sumando fosforos...");
+                case "SI": // Vendedor Sumando ingredientes
+                    this.ingrediente++;
+                    dout.writeUTF("IS:" + dtf.format(now));
+                    System.out.println("Banco: Sumando " + this.tipo.toString() + " ...");
                     break;
             }
             dout.flush();
