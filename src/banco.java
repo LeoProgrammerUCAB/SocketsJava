@@ -14,9 +14,15 @@ public class Banco {
 
     private Ingredientes tipo;
     private int ingrediente = 2;
+    private int retraso = 2000;
 
     public Banco(Ingredientes tipo) {
         this.tipo = tipo;
+    }
+
+    public Banco(Ingredientes tipo, int retraso) {
+        this.tipo = tipo;
+        this.retraso = retraso;
     }
 
     private String seleccionarIngrediente() {
@@ -35,7 +41,7 @@ public class Banco {
         LocalDateTime now = LocalDateTime.now();
         try {
             // Delay 2 seconds
-            Thread.sleep(2000);
+            Thread.sleep(this.retraso);
             String str = "";
             str = din.readUTF();
             switch (str) {

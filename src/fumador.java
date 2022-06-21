@@ -102,7 +102,19 @@ public class fumador {
 
     public static void main(String args[]) throws Exception {
         int parada = 0;
-        fumador f = new fumador(1);
+        int tipo = 0;
+        while (tipo == 0) {
+            System.out.println("Escoja el ingrediente que será infinito:");
+            System.out.println("1.- Tabaco");
+            System.out.println("2.- Papel");
+            System.out.println("3.- Fosforos");
+            tipo = Integer.parseInt(System.console().readLine());
+            if (tipo != 1 && tipo != 2 && tipo != 3) {
+                System.out.println("Ingrese un numero valido");
+                tipo = 0;
+            }
+        }
+        fumador f = new fumador(tipo);
         while (parada != 1) {
             Socket s = encontrarBanco(f);
             DataInputStream din = new DataInputStream(s.getInputStream());
