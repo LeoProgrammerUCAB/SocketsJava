@@ -1,4 +1,7 @@
 import java.net.*;
+import java.sql.Date;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.io.*;
 
 //El fumador hace funciones de cliente
@@ -18,10 +21,20 @@ public class fumador {
         }
     }
 
+    public void writelog(String actor, String accion, Integer cant, Date fecha) throws IOException{
+        
+        File file = new File ("/Users/Usuario/Desktop/LogsFumador.txt");
+        FileWriter writer = new FileWriter(file, true);
+        writer.write("el "+ actor+accion+",cantidad "+cant+" Fecha del sistema: "+fecha+"\n");
+        writer.close();
+
+    }
+
     // Por ahora todo empieza en 0, mas adelante hay que validar lo que dijo la
     // profe de un insumo infinito
 
     public void buscarIngredientes(DataInputStream din, DataOutputStream dout) throws IOException {
+        DateTimeFormatter dtf5 = DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm");
         try {
             System.out.println("Fumador: Buscando ingredientes...");
             // BI: Buscando ingredientes
@@ -47,16 +60,20 @@ public class fumador {
             }
             this.buscadasConsecutivas++;
             System.out.println("Fumador: Ingrediente Recibido " + response);
+            //imprime el log 
+            //writelog("fumador recibió: ", response, cant, dtf5.format(LocalDateTime.now()));
         } catch (Exception e) {
             System.out.println("Fumador: Error al buscar ingredientes...: " + e.toString());
         }
     }
 
     public int fumar() {
-
+        DateTimeFormatter dtf5 = DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm");
         if ((this.tabaco > 0 || this.infinito == 1) && (this.papel > 0 || this.infinito == 2)
                 && (this.fosforos > 0 || this.infinito == 3)) {
             System.out.println("Fumador: Fumando...");
+            //imprime el log 
+            //writelog("fumador","fumó un cigarrro", 1, dtf5.format(LocalDateTime.now()));
             this.buscadasConsecutivas = 0;
             this.fosforos--;
             this.papel--;
@@ -69,9 +86,12 @@ public class fumador {
     }
 
     public void solicitarIngredientes() {
+        DateTimeFormatter dtf5 = DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm");
         try {
             if (this.buscadasConsecutivas >= 2) {
                 System.out.println("Fumador: Solicitando ingredientes al vendedor...");
+                //imprime el log 
+                //writelog("fumador","solicitó un", 1, dtf5.format(LocalDateTime.now()));
                 Socket s = new Socket("localhost", 4444);
                 DataInputStream din = new DataInputStream(s.getInputStream());
                 DataOutputStream dout = new DataOutputStream(s.getOutputStream());
