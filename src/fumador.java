@@ -159,7 +159,7 @@ public class fumador {
             DataInputStream din = new DataInputStream(s.getInputStream());
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
             f.buscarIngredientes(din, dout);
-            parada = f.fumar();
+            f.fumar();
             f.solicitarIngredientes();
             dout.close();
             s.close();
