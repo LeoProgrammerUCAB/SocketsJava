@@ -1,4 +1,3 @@
-import java.net.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.io.*;
@@ -46,11 +45,11 @@ public class Banco {
             str = din.readUTF();
             switch (str) {
                 case "BI": // Fumador Buscando ingredientes
-                    dout.writeUTF(this.seleccionarIngrediente() + ":" + dtf.format(now));
+                    dout.writeUTF(this.seleccionarIngrediente() + "," + dtf.format(now));
                     break;
                 case "SI": // Vendedor Sumando ingredientes
                     this.ingrediente++;
-                    dout.writeUTF("IS:" + dtf.format(now));
+                    dout.writeUTF(this.tipo.toString() + "," + dtf.format(now));
                     System.out.println("Banco: Sumando " + this.tipo.toString() + " ...");
                     break;
             }
@@ -64,3 +63,4 @@ public class Banco {
         }
     }
 }
+

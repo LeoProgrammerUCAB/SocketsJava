@@ -1,15 +1,12 @@
 import java.net.*;
-import java.sql.Date;
-import java.text.FieldPosition;
-import java.time.format.DateTimeFormatter;
 import java.io.*;
 
 //El vendedor hace funciones de cliente
 public class vendedor {
 
-    public void writelogvendedor(String actor, String accion, Integer cant, Date fecha) throws IOException{
+    public void writelogvendedor(String actor, String accion, Integer cant, String fecha) throws IOException{
         
-        File file = new File ("/Users/Usuario/Desktop/LogsVendedor.txt");
+        File file = new File("LogsVendedor.txt");
         FileWriter writer = new FileWriter(file, true);
         writer.write("el "+ actor+accion+",cantidad "+cant+" Fecha del sistema: "+fecha+"\n");
         writer.close();
@@ -24,7 +21,6 @@ public class vendedor {
             banco1 = (int) (Math.random() * 3) + 1;
             banco2 = (int) (Math.random() * 3) + 1;
         }
-        // Switch from 1 to 3
         switch (banco1) {
             case 1:
                 this.depositarIngredientes(new Socket("localhost", 3333));
@@ -50,7 +46,6 @@ public class vendedor {
     }
 
     public void depositarIngredientes(Socket socket) throws Exception {
-        DateTimeFormatter dtf5 = DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm");
         DataInputStream din = new DataInputStream(socket.getInputStream());
         DataOutputStream dout = new DataOutputStream(socket.getOutputStream());
 
@@ -58,9 +53,20 @@ public class vendedor {
         // Print depositando
         System.out.println("Vendedor: Depositando ingrediente: " + ingrediente);
         //imprime el log 
-        //writelog("Vendedor Depositó: ",ingrediente, 1, dtf5.format(LocalDateTime.now()));
+        String response = "";
         dout.writeUTF(ingrediente);
         dout.flush();
+        response = din.readUTF();
+        // Split response by :
+        if(response != ""){
+            String[] str2 = response.split(",");
+            ingrediente = str2[0];
+            String fecha_servidor = str2[1];
+            writelogvendedor("Vendedor Depositó: ",ingrediente, 1, fecha_servidor); 
+        }else{
+            //TODO: WRITE ERROR LOG
+            System.out.println("Vendedor: Error al depositar ingrediente");
+        }
         dout.close();
         socket.close();
     }
@@ -80,7 +86,7 @@ public class vendedor {
         catch (EOFException e) {
             System.out.println("Error: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("Fumador: Error al dar Ingredientes");
+            System.out.println("Vendedor: Error al dar Ingredientes");
         }
     }
 
