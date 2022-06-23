@@ -23,8 +23,11 @@ public class ServerBanco implements Runnable {
         ServerSocket ss = null;
         while (ss == null) {
             System.out.println("Ingrese el tipo de banco a utilizar: ");
+            System.out.println("1.- Tabaco");
+            System.out.println("2.- Papel");
+            System.out.println("3.- Fosforos");
             int tipo = Integer.parseInt(System.console().readLine());
-            System.out.println("Ingrese el retraso al proveer ingrediente: ");
+            System.out.println("Ingrese el retraso al proveer ingrediente en milisegundos: ");
             int retraso = Integer.parseInt(System.console().readLine());
             switch (tipo) {
                 case 1:
