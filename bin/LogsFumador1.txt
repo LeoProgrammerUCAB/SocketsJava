@@ -1,0 +1,8 @@
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/22 20:01:22
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/22 20:01:24
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/22 08:01
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/22 20:01:26
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/22 20:01:30
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/22 08:01
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/22 20:01:32
+el Fumador: fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/22 08:01
