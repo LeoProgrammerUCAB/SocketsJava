@@ -23,24 +23,24 @@ public class vendedor {
         }
         switch (banco1) {
             case 1:
-                this.depositarIngredientes(new Socket("localhost", 3333));
+                this.depositarIngredientes(new Socket("192.168.42.130", 3333));
                 break;
             case 2:
-                this.depositarIngredientes(new Socket("localhost", 3334));
+                this.depositarIngredientes(new Socket("192.168.42.130", 3334));
                 break;
             case 3:
-                this.depositarIngredientes(new Socket("localhost", 3335));
+                this.depositarIngredientes(new Socket("192.168.42.130", 3335));
                 break;
         }
         switch (banco2) {
             case 1:
-                this.depositarIngredientes(new Socket("localhost", 3333));
+                this.depositarIngredientes(new Socket("192.168.42.130", 3333));
                 break;
             case 2:
-                this.depositarIngredientes(new Socket("localhost", 3334));
+                this.depositarIngredientes(new Socket("192.168.42.130", 3334));
                 break;
             case 3:
-                this.depositarIngredientes(new Socket("localhost", 3335));
+                this.depositarIngredientes(new Socket("192.168.42.130", 3335));
                 break;
         }
     }
@@ -64,7 +64,7 @@ public class vendedor {
             String fecha_servidor = str2[1];
             writelogvendedor("Vendedor Depositó: ",ingrediente, 1, fecha_servidor); 
         }else{
-            //TODO: WRITE ERROR LOG
+            
             System.out.println("Vendedor: Error al depositar ingrediente");
         }
         dout.close();

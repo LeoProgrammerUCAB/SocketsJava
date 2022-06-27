@@ -1,0 +1,219 @@
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:17:01
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:17:07
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:17
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:17:12
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:17:18
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:17
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:17:22
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:17:27
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:17
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:17:32
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:17:38
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:17
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:17:43
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:17:53
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:17
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:17:59
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:18
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:18:05
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:18:10
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:18
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:18:15
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:18:25
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:18
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:18:30
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:18
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:18:35
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:18:40
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:18
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:18:45
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:18:50
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:18
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:18:56
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:19:01
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:19
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:19:11
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:19:16
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:19
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:19:21
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:19:26
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:19
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:19:31
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:19:36
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:19
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:19:41
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:19:51
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:19
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:19:56
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:20
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:20:01
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:20:06
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:20
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:20:11
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:20:16
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:20
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:20:21
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:20:26
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:20
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:20:32
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:20:42
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:20
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:20:47
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:20
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:20:52
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:20:58
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:21
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:21:03
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:21:13
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:21
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:21:18
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:21:23
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:21
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:21:28
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:21:33
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:21
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:21:38
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:21:48
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:21
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:21:53
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:21
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:21:58
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:22:03
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:22
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:22:08
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:22:18
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:22
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:22:24
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:22
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:22:28
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:22:33
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:22
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:22:38
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:22:44
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:22
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:22:49
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:22:59
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:23
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:23:05
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:23
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:23:15
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:23:21
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:23
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:23:28
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:23:34
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:23
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:23:39
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:23:44
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:23
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:23:49
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:23:59
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:24
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:24:04
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:24
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:24:09
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:24:14
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:24
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:24:19
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:24:24
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:24
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:24:29
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:24:39
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:24
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:24:44
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:24
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:24:49
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:24:54
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:24
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:24:59
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:25:04
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:25
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:25:09
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:25:14
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:25
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:25:24
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:25:29
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:25
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:25:34
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:25:39
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:25
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:25:44
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:25:49
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:25
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:25:55
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:26:00
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:26
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:26:10
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:26
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:26:14
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:26:20
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:26
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:26:25
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:26:30
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:26
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:26:40
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:26
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:26:45
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:26:50
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:26
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:26:55
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:27:05
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:27
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:27:10
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:27:15
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:27
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:27:20
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:27:30
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:27
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:27:35
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:27:40
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:27
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:27:46
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:27:56
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:28
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:28:01
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:28:06
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:28
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:28:12
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:28:17
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:28
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:28:23
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:28:28
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:28
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:28:33
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:28:44
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:28
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:28:49
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:28:55
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:29
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:29:00
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:29:10
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:29
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:29:15
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:29:20
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:29
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:29:26
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:29:31
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:29
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:29:47
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:29
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:29:52
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:29:57
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:30
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:30:02
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:30:07
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:30
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:30:12
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:30:23
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:30
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:30:28
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:30:33
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:30
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:30:38
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 16:30:48
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 04:30
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 16:30:53
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:30:58
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:31
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:31:04
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 16:31:09
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 04:31

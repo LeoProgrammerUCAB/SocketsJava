@@ -103,7 +103,7 @@ public class fumador {
         try {
             if (this.buscadasConsecutivas >= 2) {
                 System.out.println("Fumador: Solicitando ingredientes al vendedor...");
-                Socket s = new Socket("localhost", 4444);
+                Socket s = new Socket("192.168.225.142", 4444);
                 //DataInputStream din = new DataInputStream(s.getInputStream());
                 DataOutputStream dout = new DataOutputStream(s.getOutputStream());
                 // SI: Solicitando ingredientes (Debe solicitar esto al vendedor)
@@ -124,11 +124,12 @@ public class fumador {
 
     public static Socket encontrarBanco(fumador f) throws Exception {
         if (f.tabaco == 0 && f.infinito != 1) {
-            return new Socket("localhost", 3333);
+            return new Socket("192.168.42.130", 3333);
+            
         } else if (f.papel == 0 && f.infinito != 2) {
-            return new Socket("localhost", 3334);
+            return new Socket("192.168.42.130", 3334);
         } else if (f.fosforos == 0 && f.infinito != 3) {
-            return new Socket("localhost", 3335);
+            return new Socket("192.168.42.130", 3335);
         } else
             throw new Exception("Fumador: No necesita ingredientes...");
     }

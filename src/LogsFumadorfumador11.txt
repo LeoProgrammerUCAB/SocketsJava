@@ -1,0 +1,50 @@
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 17:59:48
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 17:59:54
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 05:59
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 17:59:57
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 17:59:58
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 05:59
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 17:59:59
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:00
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:01
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:02
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:03
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:04
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 18:00:06
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 18:00:08
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:09
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:10
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:11
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:12
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 18:00:14
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 18:00:16
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:17
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:18
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:20
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:24
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 18:00:29
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 18:00:31
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 06:00
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 18:00:32
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:34
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:35
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:37
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador recibió: fosforos, cantidad 1, Fecha del sistema: 2022/06/27 18:00:40
+el Fumador fumó un cigarrro, cantidad 1, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:41
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:43
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
+el Fumador: no recibió nada, cantidad 0, Fecha del sistema: 2022/06/27 18:00:45
+el Fumador recibió: papel, cantidad 1, Fecha del sistema: 2022/06/27 18:00:49
+el Fumador solicitó ingredientes al vendedor, cantidad 2, Fecha del sistema: 2022/06/27 06:00
